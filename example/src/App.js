@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'core-components'
+import { Button } from 'core-components'
 import 'core-components/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Button>Heelowowow</Button>
 }
 
 export default App

@@ -1,10 +1,13 @@
 {
-  "name": "core-components",
+  "name": "core-components-demo-go",
   "version": "1.0.0",
   "description": "rewriting material-ui component",
   "author": "geekyorion",
   "license": "MIT",
-  "repository": "geekyorion/core-components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekyorion/core-components.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -49,5 +52,18 @@
   },
   "files": [
     "dist"
+  ],
+  "dependencies": {
+    "@material-ui/core": "^4.10.2"
+  },
+  "bugs": {
+    "url": "https://github.com/geekyorion/core-components/issues"
+  },
+  "homepage": "https://github.com/geekyorion/core-components#readme",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "demo"
   ]
 }
